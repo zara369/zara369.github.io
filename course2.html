@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Учебные планы | ИКТ</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #0066cc;
+      flex-wrap: wrap;
+    }
+.note {
+      font-style: italic;
+      color: #666;
+      margin-bottom: 15px;
+    }
+    nav a {
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #0055aa;
+    }
+    section {
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #e0ecff;
+    }
+    tr.semester-3 {
+      background-color: #f9fbff;
+    }
+    tr.semester-4 {
+      background-color: #eef5ff;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #004080;
+    }
+.social-links {
+      margin-top: 10px;
+    }
+
+    .social-links a {
+      color: #ffffff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+    @media screen and (max-width: 600px) {
+      th, td {
+        font-size: 0.85em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Учебные планы образовательных программ</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Программы</a>
+    <a href="plans.html">Учебные планы</a>
+    <a href="http://nku.edu.kz/page/view?id=2338" target="_blank">Преподаватели</a>
+  </nav>
+
+  <section>
+<p class="note">*Двойное нажатие на дисциплину позволяет ознакомиться с кратким содержанием</p>
+     <h2>
+<a href="course1.html" style="text-decoration:none; color: #004080;">1 курс</a>&nbsp; &nbsp; 
+<a href="" style="text-decoration:underline; color: #004080;">2 курс</a>&nbsp; &nbsp; 
+<a href="course3.html" style="text-decoration:none; color: #004080;">3 курс</a>&nbsp; &nbsp; 
+<a href="course4.html" style="text-decoration:none; color: #004080;">4 курс</a></h2>
+<table>
+  <tr>
+    <th>семестр</th>
+    <th>6B06102 ИС</th>
+    <th>6B06105 АПО</th>
+    <th>6B06104 ВТиПО</th>
+  </tr>
+  <tr class="semester-3">
+    <td rowspan="6">3</td>
+    <td colspan="3" ondblclick="alert('**Физическая культура**\n\n(Формирование физической выносливости, развитие координации и укрепление здоровья студентов)')">Физическая культура</td>
+  </tr>
+  <tr class="semester-3">
+    <td colspan="3" ondblclick="alert('**Информационно-коммуникационные технологии**\n\n(Изучение ИКТ и профессиональной лексики)')">Информационно-коммуникационные технологии</td>
+  </tr>
+  <tr class="semester-3">
+    <td colspan="3" ondblclick="alert('**Компьютерная математика**\n\n(Применение численных методов и пакетов компьютерной математики в инженерных задачах)')">Компьютерная математика</td>
+  </tr>
+  <tr class="semester-3">
+    <td colspan="3" ondblclick="alert('**Электроника**\n\n(Основы полупроводниковых приборов, логических схем и сигналов)\n\n**Электротехника**\n\n(Принципы работы электрических цепей, генераторов, трансформаторов и измерительных приборов)')">Электроника / Электротехника</td>
+  </tr>
+  <tr class="semester-3">
+    <td colspan="3" ondblclick="alert('**Основы информационных систем**\n\n(Структура и компоненты информационных систем, роли пользователей и разработчиков)\n\n**Основы теории сигналов**\n\n(Понятия о сигналах, спектрах, преобразованиях и помехоустойчивости)')">Основы информационных систем / Основы теории сигналов</td>
+  </tr>
+  <tr class="semester-3">
+    <td colspan="3" ondblclick="alert('**Языки и технологии программирования**\n\n(Изучение синтаксиса, парадигм и инструментов разработки на различных языках программирования)')">Языки и технологии программирования</td>
+  </tr>
+  <tr class="semester-4">
+    <td rowspan="6">4</td>
+    <td colspan="3" ondblclick="alert('**Философия**\n\n(Формирование мировоззренческой культуры, критического мышления и понимания фундаментальных вопросов бытия)')">Философия</td>
+  </tr>
+  <tr class="semester-4">
+    <td colspan="3" ondblclick="alert('**Компьютерные сети**\n\n(Архитектура, протоколы, модели и организация передачи данных в компьютерных сетях)')">Компьютерные сети</td>
+  </tr>
+  <tr class="semester-4">
+    <td colspan="3" ondblclick="alert('**Архитектура компьютера**\n\n(Изучение внутренних устройств и принципов работы современных вычислительных машин)')">Архитектура компьютера</td>
+  </tr>
+  <tr class="semester-4">
+    <td colspan="3" ondblclick="alert('**Операционные системы**\n\n(Функции ОС, управление процессами, памятью, файловыми системами)\n\n**Системное программное обеспечение**\n\n(Программы, обеспечивающие взаимодействие между аппаратной частью и прикладным ПО)')">Операционные системы / Системное программное обеспечение</td>
+  </tr>
+  <tr class="semester-4">
+    <td colspan="3" ondblclick="alert('**Протоколы и интерфейсы компьютерных систем**\n\n(Стандарты передачи данных, взаимодействие программных и аппаратных компонентов)')">Протоколы и интерфейсы компьютерных систем</td>
+  </tr>
+  <tr class="semester-4">
+    <td colspan="3" ondblclick="alert('**Производственная практика 1**\n\n(Ознакомление с профессиональной деятельностью в условиях предприятия)')">Производственная практика 1</td>
+  </tr>
+</table>
+  </section>
+
+<footer>
+    <p>&copy; 2025 СКУ им. М. Козыбаева — Кафедра ИКТ, Астапенко Н.В.</p>
+    <div class="social-links">
+      <a href="https://www.instagram.com/sku_fitct_ict?igsh=MTBjOXcwYmlpNXJieA==" target="_blank">Instagram</a> |
+      <a href="https://www.youtube.com/@kozybayevuniversity8089" target="_blank">YouTube</a>
+    </div>
+  </footer>
+</body>
+</html>
